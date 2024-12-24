@@ -6,6 +6,8 @@ on:
       - master
       - main
       - lola2
+      - lola 3
+
 
 jobs:
   build:
