@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - lola2
 
 jobs:
   build:
