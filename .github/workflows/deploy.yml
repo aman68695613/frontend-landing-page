@@ -39,4 +39,4 @@ jobs:
           sudo docker pull aman6869/cicd:latest
           sudo docker stop cicd || true
           sudo docker rm cicd || true
-          sudo docker run -d --name cicd -p 3005:3000 aman6869/cicd:latest
+          sudo docker run -d --name cicd -p 3000:3000 aman6869/cicd:latest
